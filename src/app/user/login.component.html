@@ -1,0 +1,22 @@
+<form (ngSubmit)="loginSubmit()">
+	<div *ngIf="message.status != null">
+		<span class="alert alert-{{ message.status }}">{{ message.message }}</span>
+	</div>
+	<ul>
+		<li>
+			<label for="email"> Adresse e-mail: </label>
+		</li>
+		<li>
+			<input id="email" type="text" required="true" name="email" [(ngModel)]="email" autocomplete="off">
+		</li>
+		<li>
+			<label for="password"> Mot de passe : </label>
+		</li>
+		<li>
+			<input id="password" type="password" name="password" [(ngModel)]="password" required="true">
+		</li>
+		<li>
+			<button type="submit" class="btn btn-danger">Connexion</button>
+		</li>
+	</ul>
+</form>

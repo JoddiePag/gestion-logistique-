@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div id="Home">
+     
+        <img src="../assets/photo/logo_ispm.png">
+      </div> 
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <a class="nav-item nav-link" routerLink="/">Accueil </a>
+       <a class="nav-item nav-link" routerLink="add">Ajouter </a> 
+      <a class="nav-item nav-link" routerLink="list">Trello </a>
+      <a class="nav-item nav-link" routerLink="name-editor">Registre </a>
+      <a class="nav-item nav-link" routerLink="produits">Déscription </a>
+    
+
+
+    </div>
+  </div>
+</nav>
+
+{{ user }}
+
+
+<footer>
+  <ul>
+    <li id="copy">©Copyright 2021</li>
+    <li><a routerLink="propos">A propos </a></li>
+  </ul>
+ </footer>
+
+<router-outlet></router-outlet>
+

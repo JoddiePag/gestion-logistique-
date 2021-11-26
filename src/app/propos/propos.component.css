@@ -1,0 +1,25 @@
+img{
+	height: 400px;
+	width: 1100px;
+	position: absolute;
+	left: 100px;
+	text-align: center;
+
+	
+}
+#h11{
+	position: relative;
+	text-align: center;
+	top: 0px;
+	font-style: italic;
+	color: red;
+	
+
+}
+p{
+	position: relative;
+	top: 40px;
+	font-size: 20px;
+	text-shadow: 2px 2px 4px red;
+
+}

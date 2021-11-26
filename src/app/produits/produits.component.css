@@ -1,0 +1,28 @@
+div#table_content{
+	width: 100%;
+	margin-top: 20px;
+	padding-left:3%;
+	padding-right:20%;
+	height: 44px;
+}
+th,td{
+	width: 15%;
+}
+th{
+	border-collapse: collapse;
+	border: 1px solid #000;
+	background-color: #40b9f2;
+}
+table img{
+	top: 60px;
+	text-align: center;
+	width: 400px;
+	height: 150px;
+
+}
+table img:hover{
+	transform: scale(1.2);
+}
+p{
+	color: #521a3e;
+}

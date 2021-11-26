@@ -1,0 +1,55 @@
+div#add{
+	text-align: center;
+	
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 460px;
+	width: 40%;
+	top: 100;
+}
+form{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+input{
+	border-left-width: 5px;
+	width: 350px;
+	height: 40px;
+}
+#nom{
+	border-left-color:red;
+
+}
+#adresse{
+	border-left-color:green;
+	border-width: 5%;
+
+}
+#num1{
+	border-left-color:purple;
+
+}
+#num2{
+	border-left-color:red;
+
+}
+fieldset{
+	position: absolute;
+	left: 400px;
+	font-size: 15pt;
+	width: 400px;
+	font-weight: bolder;
+	z-index: 1;
+	bottom: 200px;
+	text-align: center;
+	border-radius: 10px;
+
+}
+button{
+	width: 100px;
+	height: 80;
+	left: 680px;
+	background-color:#008cf8 ;
+
+}

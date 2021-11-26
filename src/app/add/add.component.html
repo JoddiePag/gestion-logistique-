@@ -1,0 +1,25 @@
+<div id="add">
+<form (ngSubmit)="submitForm()">
+	
+	<fieldset>
+		<legend>Ajouter</legend>
+
+		<div *ngIf="message.status != null">
+			<span class="alert alert-{{ message.status }}">{{ message.message }}</span>
+		</div>
+		
+		<div class="form-group">
+		<label>Classe : </label><br>
+		<input id="classe" type="name"   placeholder="Entrer le Classe" name="classe" [(ngModel)]="classe"><br>
+		<!--<p>{{ name }}</p>-->
+		</div>
+		<label>Materiel :</label><br>
+		<input id="materiel" type="text" placeholder="Entrer materiel" name="materiel" [(ngModel)]="materiel"><br>
+		<!--<p>{{ address }}</p>-->
+		<label>Date :</label><br>
+		<input id="num1" type="text" placeholder="Entrer date" name="date" [(ngModel)]="date"><br><br>
+		<button type="submit">Envoyer</button>
+	</fieldset>
+		
+</form>
+</div>
